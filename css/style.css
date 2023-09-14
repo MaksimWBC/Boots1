@@ -1,3 +1,9 @@
+:root {
+    
+}
+
+
+
 header, footer, section {
     padding: 100px 0;
 }
@@ -67,4 +73,44 @@ top: 0;
 left: 0; 
 width: 100%; 
 height: 100%; 
+}
+
+.color1 {
+    color: #05b1b1;
+}
+
+.color2 {
+    color: #217dcb;
+}
+
+.about {
+    background-color: #eee;
+}
+
+.about i {
+    font-size: 25px;
+    color: #217dcb;
+}
+
+.itd_circle {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 15px;
+    border: 3px solid #05b1b1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: #217dcb;
+    margin: 15px auto 30px;
+}
+
+.forwhom h5 {
+    padding: 50px;
+    border: 3px solid #05b1b1;
 }
